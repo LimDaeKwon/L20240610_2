@@ -1,6 +1,5 @@
 #include "SDL.h"
 #include<iostream>
-#include <math.h>
 #pragma comment(lib, "SDL2")
 #pragma comment(lib, "SDL2main")
 using namespace std;
@@ -26,73 +25,6 @@ int SDL_main(int argc, char* argv[])
 
 	}
 	Term();
-
-
-
-
-
-
-
-	/*char Chess[50][50] = { 0, };
-
-	int N, M;
-	cin >> N >> M;
-
-	for (int i = 0; i < N; i++)
-	{
-		string k;
-		cin >> k;
-		for (int j = 0; j < M; j++)
-		{
-			Chess[i][j] = k[j];
-		}
-	}
-
-	for (int i = 0; i < N; i++)
-	{
-		if (i != N - 1)
-		{
-			if (Chess[i][0] == Chess[i + 1][0])
-			{
-				if (Chess[i + 1][0] == 'B')
-				{
-					Chess[i + 1][0] = 'W';
-				}
-				else
-				{
-					Chess[i + 1][0] = 'B';
-				}
-			}
-		}
-
-
-
-		for (int j = 0; j < M - 1; j++)
-		{
-			if (Chess[i][j] == Chess[i][j + 1])
-			{
-				if (Chess[i][j + 1] == 'B')
-				{
-					Chess[i][j + 1] = 'W';
-				}
-				else
-				{
-					Chess[i][j + 1] = 'B';
-				}
-			}
-		}
-	}
-
-	for (int i = 0; i < N; i++)
-	{
-
-		for (int j = 0; j < M; j++)
-		{
-			cout << Chess[i][j] << " ";
-		}
-		cout << endl;
-	}*/
-
 
 	return 0;
 
